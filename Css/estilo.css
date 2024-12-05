@@ -8,7 +8,7 @@
     src: url('/Fonts/Cordel\ Encarnado.otf');
 }
 body{
- font-family: Cordel ;
+ font-family: Cordel;
 }
 header{
     background-color: black;
@@ -34,7 +34,7 @@ section p{
     font-size: 1.5em;
 }
 div#img1{
-    background-image: url('');
+    background-image: url('/Imagens/MaranhãoFundo.jpg');
     background-position: center left;
     background-attachment: fixed;
     background-size: auto;
@@ -43,7 +43,7 @@ div#img1{
     padding-top: 60px;
 }
 div#img2{
-    background-image: url('');
+    background-image: url('/Imagens/SãoPauloFundo.jpg');
     background-position: center left;
     background-attachment: fixed;
     background-size: auto;
