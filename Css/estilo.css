@@ -1,0 +1,87 @@
+@charset "UTF-08";
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@font-face {
+    font-family: Cordel;
+    src: url('/Fonts/Cordel\ Encarnado.otf');
+}
+body{
+ font-family: Cordel ;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 45px;
+}
+header>h1{
+    font-family: Cordel;
+    font-size: 3em;
+}
+header>h2{
+    font-family:Cordel ;
+    font-size: 16px;
+}
+section{
+    min-width: 300px;
+    line-height: 50px;
+}
+section p{
+    margin-left: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
+div#img1{
+    background-image: url('');
+    background-position: center left;
+    background-attachment: fixed;
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 700px;
+    padding-top: 60px;
+}
+div#img2{
+    background-image: url('');
+    background-position: center left;
+    background-attachment: fixed;
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 700px;
+    padding-top: 60px;
+}
+div.texto{
+    background-color: rgba(95, 92, 92, 0.315);
+    color: white;
+    height: hw;
+    width: 300px;
+    margin-left: 20px;
+    padding-top: 30px;
+    
+
+    
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+header a:hover{
+    text-decoration: underline;
+}
+footer{
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+footer a:hover{
+    text-decoration: underline;
+}
