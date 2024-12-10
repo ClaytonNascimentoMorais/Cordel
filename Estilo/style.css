@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 @font-face {
     font-family: Cordel;
-    src: url('/Fonts/Cordel\ Encarnado.otf');
+    src: url('../Fonts/Cordel\ Encarnado.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
@@ -21,7 +23,7 @@
 html, body{
     min-height: 100vh;
     background-color: dark;
-    font-family: var(--Font1);
+    font-family: var(--Font4);
 }
 header{
     background-color: black;
@@ -31,7 +33,6 @@ header{
 header>h1{
     padding-top: 50px;
     font-variant: small-caps;
-    font-family: var(--Font2);
     font-size: 10vw;
 }
 header > p{
@@ -51,8 +52,11 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-family: var(--Font3);
     font-size: 3.5vw;
+}
+
+section>p{
+    padding-bottom: 2em;
 }
 
 section.normal{
@@ -60,14 +64,27 @@ section.normal{
     color: black;
 }
 section.imagem{
-    background-color: rgba(10, 9, 9, 0.726);
+    background-color: rgba(121, 118, 118, 0.322);
     color:  white;
+    box-shadow: inset 6px 6px 13px 0px rgb(94, 93, 93);
 }
 section.imagem>p{
     display: inline-block;
     padding: 5px;
     background-color: rgba(5, 5, 5, 0.555);
 
+}
+section#img01{
+    background-image: url('../Imagens/MaranhãoFundo.jpg');
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#img02{
+    background-image: url('../Imagens/SãoPauloFundo.jpg');
+    background-position: center left;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 footer{
